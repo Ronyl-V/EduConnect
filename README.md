@@ -4,11 +4,11 @@
 
 1. Features
 
-- 🔍 Smart search and filters (country, study level, field, deadline)
-- 🎓 Partner universities showcase
-- 🔐 Login & registration system (HTML, CSS, JS-based)
-- 📬 Contact form powered by Web3Forms
-- 💡 Clean and responsive UI design
+- Smart search and filters (country, study level, field, deadline)
+- Partner universities showcase
+- Login & registration system (HTML, CSS, JS-based)
+- Contact form powered by Web3Forms
+- Clean and responsive UI design
 
 2. Technologies Used
 
