@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contactez-nous | EduConnect</title>
+  <link rel="stylesheet" href="../css/contact.css">
+  
+</head>
+<body>
+   <header class="header">
+    <div class="container header-inner">
+      <div class="logo">
+        <h1>EduConnect</h1>
+      </div>
+      <a href="../index.html">
+      <button class="btn btn-primary">Retour</button>
+      </a>
+    </div>
+  </header>
+
+  <section class="contact-hero">
+    <h2>Contactez-nous</h2>
+    <p>Vous avez une question, une demande ou souhaitez collaborer avec nous ? Remplissez ce formulaire et notre équipe vous répondra rapidement.</p>
+  </section>
+
+  <section class="contact-form-section">
+    <h3>Formulaire de contact</h3>
+    <form action="https://api.web3forms.com/submit" method="POST" id="contactForm">
+    <input type="hidden" name="access_key" value="8d97f506-20dd-429d-9839-e25f6934b819">
+      <div class="form-group">
+        <label for="name">Nom complet</label>
+        <input name="name" type="text" id="name" required>
+      </div>
+
+      <div class="form-group">
+        <label for="email">Email</label>
+        <input name="email" type="email" id="email" required>
+      </div>
+
+      <div class="form-group">
+        <label for="message">Message</label>
+        <textarea name="message" id="message" required></textarea>
+      </div>
+
+      <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
+      <button type="submit" class="submit-btn">Envoyer le message</button>
+    </form>
+  </section>
+
+  <footer class="footer">
+    <p>&copy; 2024 EduConnect. Tous droits réservés.</p>
+  </footer>
+</body>
+</html>

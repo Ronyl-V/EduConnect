@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Liste des Bourses</title>
+  <link rel="stylesheet" href="../css/bourse.css">
+</head>
+<body>
+  <header class="header">
+    <div class="container header-inner">
+      <h1>🎓 EduConnect - Rechercher une Bourse</h1>
+    </div>
+  </header>
+
+  <main class="container">
+    <h2> Liste des Bourses Disponibles</h2>
+
+    <div class="filters">
+      <input type="text" id="searchKeyword" placeholder="Mot-clé (ex: ingénierie, France)"/>
+      <select id="countryFilter">
+        <option value="">Tous les pays</option>
+        <option value="France">France</option>
+        <option value="Canada">Canada</option>
+        <option value="USA">États-Unis</option>
+        <option value="Allemagne">Allemagne</option>
+      </select>
+      <select id="levelFilter">
+        <option value="">Tous les niveaux</option>
+        <option value="Licence">Licence</option>
+        <option value="Master">Master</option>
+        <option value="Doctorat">Doctorat</option>
+      </select>
+      <button id="filterBtn" class="btn"> Rechercher</button>
+    </div>
+
+    <div id="scholarshipList" class="scholarship-list">
+      <!-- Résultats des bourses ici -->
+    </div>
+  </main>
+
+  <footer class="footer">
+    <p>&copy; 2024 EduConnect. Tous droits réservés.</p>
+  </footer>
+
+  <script src="../js/bourse.js"></script>
+</body>
+</html>
